@@ -1,0 +1,12 @@
+C:\Users\foeu\My Private Documents\Projetos\TCC-João\Senne-API\BLL\bin\Debug\net5.0\BLL.deps.json
+C:\Users\foeu\My Private Documents\Projetos\TCC-João\Senne-API\BLL\bin\Debug\net5.0\BLL.dll
+C:\Users\foeu\My Private Documents\Projetos\TCC-João\Senne-API\BLL\bin\Debug\net5.0\ref\BLL.dll
+C:\Users\foeu\My Private Documents\Projetos\TCC-João\Senne-API\BLL\bin\Debug\net5.0\BLL.pdb
+C:\Users\foeu\My Private Documents\Projetos\TCC-João\Senne-API\BLL\obj\Debug\net5.0\BLL.csproj.AssemblyReference.cache
+C:\Users\foeu\My Private Documents\Projetos\TCC-João\Senne-API\BLL\obj\Debug\net5.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\foeu\My Private Documents\Projetos\TCC-João\Senne-API\BLL\obj\Debug\net5.0\BLL.AssemblyInfoInputs.cache
+C:\Users\foeu\My Private Documents\Projetos\TCC-João\Senne-API\BLL\obj\Debug\net5.0\BLL.AssemblyInfo.cs
+C:\Users\foeu\My Private Documents\Projetos\TCC-João\Senne-API\BLL\obj\Debug\net5.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\foeu\My Private Documents\Projetos\TCC-João\Senne-API\BLL\obj\Debug\net5.0\BLL.dll
+C:\Users\foeu\My Private Documents\Projetos\TCC-João\Senne-API\BLL\obj\Debug\net5.0\ref\BLL.dll
+C:\Users\foeu\My Private Documents\Projetos\TCC-João\Senne-API\BLL\obj\Debug\net5.0\BLL.pdb
