@@ -90,61 +90,64 @@
                     <h4 class="text-dark">Dados Pessoais</h4>
                     <div class="dropdown-divider"></div>
                     <div class="form-row py-3">
-                        <div class="form-group col-md-6">
-                            <label for="inputEmail">E-mail *</label>
-                            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                        <div class="form-group col-md-4">
+                            <label for="inputEmail">Nome *</label>
+                            <input type="text" class="form-control" id="nome" required>
                         </div>
-                        <div class="form-group col-md-6">
+                        <div class="form-group col-md-4">
+                            <label for="inputCPF">Sobrenome *</label>
+                            <input type="text" class="form-control" id="sobrenome" required>
+                        </div>
+                        <div class="form-group col-md-4">
                             <label for="inputCPF">CPF *</label>
-                            <input type="text" class="form-control" id="inputCPF">
+                            <input type="text" class="form-control" id="cpf" onkeyup="cpfCheck(this)" maxlength="14" onkeydown="javascript: fMasc( this, mCPF );" placeholder="000.000.000-00" required> <p><span id="cpfResponse"></span></p>
                         </div>
-                        <div class="form-group col-md-12">
-                            <label for="inputNome">Nome *</label>
-                            <input type="text" class="form-control" id="inputNome" placeholder="Nome Completo">
-                        </div>
-                        <div class="form-group col-md-6">
+                        <div class="form-group col-md-4">
                             <label for="inputData">Data de Nascimento *</label>
-                            <input type="date" class="form-control" id="inputData">
+                            <input type="date" class="form-control" id="dataDeNascimento" onChange="validardataDeNascimento(this.value);" required>
                         </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputGenero">Gênero *</label>
-                            <select id="inputGenero" class="form-control">
+                        <div class="form-group col-md-4">
+                            <label for="Genero">Gênero *</label>
+                            <select id="Genero" class="form-control" required>
                                 <option selected>Escolher...</option>
                                 <option>Feminino</option>
                                 <option>Masculino</option>
-                                <option>Não Binário</option>
                             </select>
                         </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputTelefone1">Telefone 1 *</label>
-                            <input type="tel" class="form-control" id="inputTelefone1">
+                        <div class="form-group col-md-4">
+                            <label for="inputTelefone1">Telefone *</label>
+                            <input type="tel" class="form-control" id="telefone" placeholder="(00) 00000-0000" required>
                         </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputTelefone2">Telefone 2</label>
-                            <input type="tel" class="form-control" id="inputTelefone2">
-                        </div>
-                        <div class="form-group col-md-3">
+                        <div class="form-group col-md-2">
                             <label for="inputCEP">CEP *</label>
-                            <input type="text" class="form-control" id="inputCEP">
+                            <input type="text" class="form-control" id="CEP" maxlength="9" onBlur="pesquisacep(this.value);" placeholder="00000-000" required>
                         </div>
-                        <div class="form-group col-md-7">
+                        <div class="form-group col-md-5">
                             <label for="inputEndereco">Endereço *</label>
-                            <input type="text" class="form-control" id="inputEndereco">
+                            <input type="text" class="form-control" id="endereco" required>
                         </div>
                         <div class="form-group col-md-2">
                             <label for="inputNumero">Número *</label>
-                            <input type="text" class="form-control" id="inputNumero">
+                            <input type="text" class="form-control" id="numero" required>
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label for="inputCidade">Cidade *</label>
+                            <input type="text" class="form-control" id="cidade" required>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="inputNome">E-mail *</label>
+                            <input type="email" class="form-control" id="email" placeholder="exemplo@email.com" required>
                         </div>
                         <div class="form-group col-md-6">
                             <label for="inputSenha">Informe a Senha *</label>
-                            <input type="password" class="form-control" id="inputSenha">
+                            <input type="password" class="form-control" id="senha" required>
                         </div>
                         <div class="form-group col-md-6">
                             <label for="inputConfSenha">Confirme a Senha *</label>
-                            <input type="password" class="form-control" id="inputConfSenha">
+                            <input type="password" class="form-control" id="confSenha" required>
                         </div>
                         <div class="form-group col-md-12">
-                            <button type="submit" class="btn btn-success btn-lg btn-block">Cadastrar</button>
+                            <button type="submit" class="btn btn-success btn-lg btn-block" id="btn" onClick="validarSenha()">Cadastrar</button>
                         </div>
                     </div>
                 </form>
@@ -200,6 +203,9 @@
     <script type="text/javascript" src="../js/jquery-3.3.1.slim.min.js"></script>
     <script type="text/javascript" src="../js/popper.min.js"></script>
     <script type="text/javascript" src="../js/bootstrap.js"></script>
+    <!-- Jquery Mask -->
+    <script src="../js/jquery.mask.min.js"></script>
+    <script src="../js/main.js"></script>
     <!-- Botão WhatsApp -->
     <script>window.rwbp={email:'sennetecidos@gmail.com',phone:'+5511961319195',message:'Olá! Preencha os campos abaixo para iniciar a conversa no WhatsApp',lang:'pt-BR'}</script><script defer async src='https://duz4dqsaqembt.cloudfront.net/client/whats.js'></script>
 </body>
