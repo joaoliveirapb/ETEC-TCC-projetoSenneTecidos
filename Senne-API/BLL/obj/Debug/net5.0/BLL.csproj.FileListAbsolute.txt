@@ -10,3 +10,17 @@ C:\Users\foeu\My Private Documents\Projetos\TCC-João\Senne-API\BLL\obj\Debug\ne
 C:\Users\foeu\My Private Documents\Projetos\TCC-João\Senne-API\BLL\obj\Debug\net5.0\BLL.dll
 C:\Users\foeu\My Private Documents\Projetos\TCC-João\Senne-API\BLL\obj\Debug\net5.0\ref\BLL.dll
 C:\Users\foeu\My Private Documents\Projetos\TCC-João\Senne-API\BLL\obj\Debug\net5.0\BLL.pdb
+D:\xampp\htdocs\projetoSenne\Senne-API\BLL\obj\Debug\net5.0\BLL.dll
+D:\xampp\htdocs\projetoSenne\Senne-API\BLL\obj\Debug\net5.0\BLL.pdb
+C:\Users\joaov\OneDrive\Área de Trabalho\projetoSenne\Senne-API\BLL\bin\Debug\net5.0\BLL.deps.json
+C:\Users\joaov\OneDrive\Área de Trabalho\projetoSenne\Senne-API\BLL\bin\Debug\net5.0\BLL.dll
+C:\Users\joaov\OneDrive\Área de Trabalho\projetoSenne\Senne-API\BLL\bin\Debug\net5.0\ref\BLL.dll
+C:\Users\joaov\OneDrive\Área de Trabalho\projetoSenne\Senne-API\BLL\bin\Debug\net5.0\BLL.pdb
+C:\Users\joaov\OneDrive\Área de Trabalho\projetoSenne\Senne-API\BLL\obj\Debug\net5.0\BLL.csproj.AssemblyReference.cache
+C:\Users\joaov\OneDrive\Área de Trabalho\projetoSenne\Senne-API\BLL\obj\Debug\net5.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaov\OneDrive\Área de Trabalho\projetoSenne\Senne-API\BLL\obj\Debug\net5.0\BLL.AssemblyInfoInputs.cache
+C:\Users\joaov\OneDrive\Área de Trabalho\projetoSenne\Senne-API\BLL\obj\Debug\net5.0\BLL.AssemblyInfo.cs
+C:\Users\joaov\OneDrive\Área de Trabalho\projetoSenne\Senne-API\BLL\obj\Debug\net5.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\joaov\OneDrive\Área de Trabalho\projetoSenne\Senne-API\BLL\obj\Debug\net5.0\BLL.dll
+C:\Users\joaov\OneDrive\Área de Trabalho\projetoSenne\Senne-API\BLL\obj\Debug\net5.0\ref\BLL.dll
+C:\Users\joaov\OneDrive\Área de Trabalho\projetoSenne\Senne-API\BLL\obj\Debug\net5.0\BLL.pdb

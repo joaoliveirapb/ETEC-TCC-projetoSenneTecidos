@@ -581,31 +581,29 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\foeu\\.nuget\\packages\\": {},
+    "C:\\Users\\joaov\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\foeu\\My Private Documents\\Projetos\\TCC-João\\ETEC-TCC-projetoSenneTecidos\\Senne-API\\BLL\\BLL.csproj",
+      "projectUniqueName": "C:\\Users\\joaov\\OneDrive\\Área de Trabalho\\projetoSenne\\Senne-API\\BLL\\BLL.csproj",
       "projectName": "BLL",
-      "projectPath": "C:\\Users\\foeu\\My Private Documents\\Projetos\\TCC-João\\ETEC-TCC-projetoSenneTecidos\\Senne-API\\BLL\\BLL.csproj",
-      "packagesPath": "C:\\Users\\foeu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\foeu\\My Private Documents\\Projetos\\TCC-João\\ETEC-TCC-projetoSenneTecidos\\Senne-API\\BLL\\obj\\",
+      "projectPath": "C:\\Users\\joaov\\OneDrive\\Área de Trabalho\\projetoSenne\\Senne-API\\BLL\\BLL.csproj",
+      "packagesPath": "C:\\Users\\joaov\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\joaov\\OneDrive\\Área de Trabalho\\projetoSenne\\Senne-API\\BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\foeu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\joaov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "D:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -652,7 +650,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "D:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
