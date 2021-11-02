@@ -19,7 +19,8 @@ namespace DAL
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=GFT-ZAFFLGAYFYP;Database=SenneDatabase;Trusted_Connection=True;");
+            // optionsBuilder.UseSqlServer(@"Server=Fabiano;Database=SenneDatabase;Trusted_Connection=True;"); SQL Server
+            optionsBuilder.UseMySQL(@"server=localhost;port=3306;database=sennedatabase;uid=root;password=root;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -48,7 +49,7 @@ namespace DAL
                 entity.Property(x => x.NumberAddress);
                 entity.Property(x => x.City);
                 entity.Property(x => x.Phone);
-                entity.Property(x => x.Genre);
+                entity.Property(x => x.Genre).HasColumnType("char");
             });
             modelBuilder.Entity<Category>(entity =>
             {
