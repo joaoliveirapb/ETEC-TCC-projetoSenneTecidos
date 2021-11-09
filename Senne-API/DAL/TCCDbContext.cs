@@ -19,8 +19,8 @@ namespace DAL
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            // optionsBuilder.UseSqlServer(@"Server=Fabiano;Database=SenneDatabase;Trusted_Connection=True;"); SQL Server
-            optionsBuilder.UseMySQL(@"server=localhost;port=3306;database=sennedatabase;uid=root;password=root;");
+            optionsBuilder.UseSqlServer(@"Server=DESKTOP-JO9IQAT;Database=SenneDatabase;Trusted_Connection=True;");
+            //optionsBuilder.UseMySQL(@"server=localhost;port=3306;database=sennedatabase;uid=root;password=root;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

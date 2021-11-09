@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Senne Tecidos | Cadastro</title>
+    <title>Senne Tecidos</title>
     <!-- Ícone Navegador -->
     <link rel="shortcut icon" href="../images/icone.png">
     <!-- Bootstrap CSS -->
@@ -33,7 +33,7 @@
                     <a class="nav-link" href="../UI/mesa.html">Mesa</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../UI/banho.html">Banho</a>
+                    <a class="nav-link" href="..//UI/banho.html">Banho</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../UI/acessorios.html">Acessórios</a>
@@ -59,109 +59,60 @@
                 <form>
                     <div class="form-group">
                       <label for="loginEmail">E-mail</label>
-                      <input type="email" class="form-control" id="loginEmail" aria-describedby="emailHelp" placeholder="Digite seu e-mail">
+                      <input type="email" class="form-control" id="loginEmail" aria-describedby="emailHelp">
                     </div>
                     <div class="form-group">
                       <label for="loginPassword">Senha</label>
-                      <input type="password" class="form-control" id="loginPassword" placeholder="Digite sua senha">
+                      <input type="password" class="form-control" id="loginPassword">
                     </div>
-                    <button type="submit" class="btn btn-primary">Entrar</button>
+                    <button type="button" id="btnEntrar" class="btn btn-primary">Entrar</button>
                     <small class="form-text text-muted">Esqueceu a senha? <a href="#">Clique Aqui</a>.</small>
                 </form>
             </div>
             <div class="modal-footer justify-content-start">
                 <a href="../UI/cadastro.html" class="btn btn-success">Cadastre-se</a>
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-              </div>
+            </div>
           </div>
         </div>
     </div>
 
-    <!-- Cadastro -->
     <section class="py-5 bg-light">
         <div class="container">
-            <div class="py-2 text-center">
-                <h2 class="display-4 d-block">Cadastro</h2>
-                <span class="h5 d-block text-muted">Preencha os campos abaixo para criar sua conta na loja</span>
-            </div>
-
-            <div class="row py-5">
-                <form class="col" action="">
-                    <h4 class="text-dark">Dados Pessoais</h4>
-                    <div class="dropdown-divider"></div>
-                    <div class="form-row py-3">
-                        <div class="form-group col-md-4">
-                            <label for="inputEmail">Nome *</label>
-                            <input type="text" class="form-control" id="nome" required>
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label for="inputCPF">Sobrenome *</label>
-                            <input type="text" class="form-control" id="sobrenome" required>
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label for="inputCPF">CPF *</label>
-                            <input type="text" class="form-control" id="cpf" onkeyup="cpfCheck(this)" maxlength="14" onkeydown="javascript: fMasc( this, mCPF );" placeholder="000.000.000-00" required> <p><span id="cpfResponse"></span></p>
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label for="inputData">Data de Nascimento *</label>
-                            <input type="date" class="form-control" id="dataDeNascimento" onChange="validardataDeNascimento(this.value);" required>
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label for="Genero">Gênero *</label>
-                            <select id="Genero" class="form-control" required>
-                                <option selected>Escolher...</option>
-                                <option>Feminino</option>
-                                <option>Masculino</option>
-                            </select>
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label for="inputTelefone1">Telefone *</label>
-                            <input type="tel" class="form-control" id="telefone" placeholder="(00) 00000-0000" required>
-                        </div>
-                        <div class="form-group col-md-2">
-                            <label for="inputCEP">CEP *</label>
-                            <input type="text" class="form-control" id="CEP" maxlength="9" onBlur="pesquisacep(this.value);" placeholder="00000-000" required>
-                        </div>
-                        <div class="form-group col-md-5">
-                            <label for="inputEndereco">Endereço *</label>
-                            <input type="text" class="form-control" id="endereco" required>
-                        </div>
-                        <div class="form-group col-md-2">
-                            <label for="inputNumero">Número *</label>
-                            <input type="text" class="form-control" id="numero" required>
-                        </div>
-                        <div class="form-group col-md-3">
-                            <label for="inputCidade">Cidade *</label>
-                            <input type="text" class="form-control" id="cidade" required>
-                        </div>
-                        <div class="form-group col-md-12">
-                            <label for="inputNome">E-mail *</label>
-                            <input type="email" class="form-control" id="email" placeholder="user@email.com" required>
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputSenha">Informe a Senha *</label>
-                            <input type="password" class="form-control" id="senha" required>
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputConfSenha">Confirme a Senha *</label>
-                            <input type="password" class="form-control" id="confSenha" required>
-                        </div>
-                        <div class="form-group col-md-12">
-                            <button type="submit" class="btn btn-success btn-lg btn-block" id="btn" onClick="validarSenha()">Cadastrar</button>
-                        </div>
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <img class="d-block w-100" src="../images/teste.jpeg">
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="nomeProduto my-3">
+                        <p class="h3 d-block text-dark">TECIDO DECORAÇÃO BELIZE ESTAMPADO C/ PROTEÇÃO</p>
                     </div>
-                </form>
+                    <div class="dropdown-divider my-4"></div>
+                    <div class="infoProduto">
+                        <p class="h6 d-block font-weight-bold">Informações sobre este produto:</p>
+                        <ul>
+                            <li>Toque macio</li>
+                            <li>Sensação quente</li>
+                            <li>Estampado</li>
+                        </ul>
+                    </div>
+                    <div class="dropdown-divider my-4"></div>
+                    <div class="descricaoProduto text-center">
+                        <p class="h3 d-block font-weight-bold">Descrição do Produto</p>
+                        <p class="d-block text-justify text-dark">O azul e branco dos azulejos portugueses são clássicos na decoração de fachadas e cozinhas. Nessa coleção ele vem em uma forma nova: sua roupa de cama. A padronagem, usada como inspiração do Kit Colcha Coimbra é atemporal e vai levar um charme especial para seu quarto. Acolchoados, colcha e porta-travesseiros da composição protegem sua cama durante o dia e dão um toque de conforto para o suas noites de sono.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-dark text-white">
+     <!-- Footer -->
+     <footer class="bg-dark text-white">
         <div class="container py-4">
             <div class="row">
                 <div class="col-md-3 col-6">
                     <h5>SOBRE A EMPRESA</h5>
-                    <p class="text-secondary text-justify">A senne tecidos é uma empresa que está no mercado de trabalho há 4 anos, procurando atender as necessidades dos clientes com produtos de qualidade e acessíveis, além disso a um novo setor na loja que contém linhas, barbantes e armarinhos em geral, tudo isso localizado na loja física em Caieiras porém agora com sistema de entregas para todo o Brasil, destinando-se para todos que procuram tecidos, artigos de cama-mesa- banho e decoração.
+                    <p class="text-secondary text-justify">A Senne Tecidos é uma empresa que está no mercado de trabalho há 4 anos, procurando atender as necessidades dos clientes com produtos de qualidade e acessíveis, além disso a um novo setor na loja que contém linhas, barbantes e armarinhos em geral, tudo isso localizado na loja física em Caieiras porém agora com sistema de entregas para todo o Brasil, destinando-se para todos que procuram tecidos, artigos de cama-mesa- banho e decoração.
                         Respeito, Confiança e comprometimento é o lema de nossa empresa!</p>
                 </div>
                 <div class="col-md-3 col-6">
@@ -200,13 +151,13 @@
     </footer>
 
     <!-- JS Bootstrap -->
-    <script type="text/javascript" src="../js/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="../js/popper.min.js"></script>
     <script type="text/javascript" src="../js/bootstrap.js"></script>
-    <!-- Jquery Mask -->
-    <script src="../js/jquery.mask.min.js"></script>
-    <script src="../js/main.js"></script>
+    <!-- JS Main -->   
+    <script type="text/javascript" src="../js/main.js"></script>
     <!-- Botão WhatsApp -->
     <script>window.rwbp={email:'sennetecidos@gmail.com',phone:'+5511961319195',message:'Olá! Preencha os campos abaixo para iniciar a conversa no WhatsApp',lang:'pt-BR'}</script><script defer async src='https://duz4dqsaqembt.cloudfront.net/client/whats.js'></script>
+    <script type="text/javascript" src="../js/loginUser.js"></script>
 </body>
 </html>
