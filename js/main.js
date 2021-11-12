@@ -149,15 +149,3 @@ else {
     limpa_formulário_cep();
 }
 }
-
-//Validação de Senha
-function validarSenha () {
-    var senha = document.getElementById('senha').value,
-    confSenha = document.getElementById('confSenha').value;
-
-    if (senha != confSenha) {
-        alert('Senhas Divergentes!\nAs senhas precisam ser iguais')
-    } else {
-        document.FormSenha.submit();
-    }
-}

@@ -69,3 +69,4 @@ C:\Users\João Oliveira\Desktop\ETEC-TCC-projetoSenneTecidos\Senne-API\DAL\obj\D
 C:\Users\João Oliveira\Desktop\ETEC-TCC-projetoSenneTecidos\Senne-API\DAL\obj\Debug\net5.0\ref\DAL.dll
 C:\Users\João Oliveira\Desktop\ETEC-TCC-projetoSenneTecidos\Senne-API\DAL\obj\Debug\net5.0\DAL.pdb
 C:\Users\João Oliveira\Desktop\ETEC-TCC-projetoSenneTecidos\Senne-API\DAL\obj\Debug\net5.0\DAL.genruntimeconfig.cache
+C:\Users\João Oliveira\Desktop\ETEC-TCC-projetoSenneTecidos\Senne-API\DAL\obj\Debug\net5.0\DAL.csproj.CopyComplete

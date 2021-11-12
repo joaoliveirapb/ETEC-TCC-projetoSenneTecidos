@@ -17,7 +17,7 @@
     <!-- Menu -->
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top px-5 box-shadow">
         <a class="navbar-brand" href="index.html">
-            <img src="../images/logo-preto.png" alt="Senne Tecidos">
+            <img src="../images/logo-dourado.png" alt="Senne Tecidos">
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir navegação">
@@ -59,20 +59,20 @@
                 <form>
                     <div class="form-group">
                       <label for="loginEmail">E-mail</label>
-                      <input type="email" class="form-control" id="loginEmail" aria-describedby="emailHelp" placeholder="Digite seu e-mail">
+                      <input type="email" class="form-control" id="loginEmail" aria-describedby="emailHelp">
                     </div>
                     <div class="form-group">
                       <label for="loginPassword">Senha</label>
-                      <input type="password" class="form-control" id="loginPassword" placeholder="Digite sua senha">
+                      <input type="password" class="form-control" id="loginPassword">
                     </div>
-                    <button type="submit" class="btn btn-primary">Entrar</button>
+                    <button type="button" id="btnEntrar" class="btn btn-primary">Entrar</button>
                     <small class="form-text text-muted">Esqueceu a senha? <a href="#">Clique Aqui</a>.</small>
                 </form>
             </div>
             <div class="modal-footer justify-content-start">
                 <a href="../UI/cadastro.html" class="btn btn-success">Cadastre-se</a>
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-              </div>
+            </div>
           </div>
         </div>
     </div>
@@ -110,8 +110,8 @@
                             <label for="Genero">Gênero *</label>
                             <select id="Genero" class="form-control" required>
                                 <option selected>Escolher...</option>
-                                <option>Feminino</option>
-                                <option>Masculino</option>
+                                <option value="F">Feminino</option>
+                                <option value="M">Masculino</option>
                             </select>
                         </div>
                         <div class="form-group col-md-4">
@@ -147,7 +147,7 @@
                             <input type="password" class="form-control" id="confSenha" required>
                         </div>
                         <div class="form-group col-md-12">
-                            <button type="submit" class="btn btn-success btn-lg btn-block" id="btn" onClick="validarSenha()">Cadastrar</button>
+                            <button type="submit" class="btn btn-success btn-lg btn-block" id="btnCadastro">Cadastrar</button>
                         </div>
                     </div>
                 </form>
@@ -200,9 +200,11 @@
     </footer>
 
     <!-- JS Bootstrap -->
-    <script type="text/javascript" src="../js/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="../js/popper.min.js"></script>
     <script type="text/javascript" src="../js/bootstrap.js"></script>
+    <script type="text/javascript" src="../js/loginUser.js"></script>
+    <script type="text/javascript" src="../js/cadastroUser.js"></script>
     <!-- Jquery Mask -->
     <script src="../js/jquery.mask.min.js"></script>
     <script src="../js/main.js"></script>
