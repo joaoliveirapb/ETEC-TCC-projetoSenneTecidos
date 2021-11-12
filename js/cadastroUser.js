@@ -17,9 +17,7 @@ function buildingJson() {
     var nome = $("#nome").val();
     var sobrenome = $("#sobrenome").val();
     var cpf = $("#cpf").val().replace(/[^0-9]/g, "");
-    var dataDeNascimentoSem = $("#dataDeNascimento").val();
-    var data = new Date(dataDeNascimentoSem);
-    var dataDeNascimento = (data.getFullYear() + "-" + ((data.getMonth() + 1)) + "-" + (data.getDate() ));
+    var dataDeNascimento = $("#dataDeNascimento").val();
     var Genero = $("#Genero").val();
     var telefone = $("#telefone").val().replace(/[^0-9]/g, "");
     var CEP = $("#CEP").val().replace(/[^0-9]/g, "");
