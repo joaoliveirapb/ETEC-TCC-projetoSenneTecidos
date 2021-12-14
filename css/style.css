@@ -60,6 +60,12 @@ body {
     }
 }
 
+@media (max-width: 667px) {
+    .sobre-item {
+        width: 300px;
+    }
+}
+
 .item {
     border-radius: 5px;
     transition: all .2 ease-in-out;
@@ -69,4 +75,62 @@ body {
     transform: scale(1.1);
     border-style: solid;
     border-width: 1px;
+}
+
+.aSenne {
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+}
+
+.aSenne img, p, h2 {
+    position: relative;
+    z-index: 2;
+}
+
+.fraseASenne {
+    font-family: Georgia, serif;
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+.aSenne::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.4;
+    background-image: url('../images/bgASenne.png');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+.historia-title, .missao-title, .visao-title, .valores-title, .loja-fisica {
+    font-family: Georgia, serif;
+    font-size: 40px;
+}
+
+.historia-item {
+    font-family: Georgia, serif;
+    font-size: 23px;
+}
+
+.missao-item, .visao-item, .valores-item {
+    font-family: Georgia, serif;
+    font-size: 20px;
+}
+
+.bgASenne {
+    width: 400px;
+}
+
+@media (max-width: 667px) {
+    .bgASenne {
+        width: 300px;
+    }
 }

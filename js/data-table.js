@@ -9,9 +9,9 @@ $(document).ready( function () {
         //"info" : false,
         "language" : {
             "lengthMenu": "Mostrando _MENU_ registros por página",
-            "zeroRecords": "Nenhum funcionário cadastrado no sistema.",
+            "zeroRecords": "Nenhum produto cadastrado no sistema.",
             "info": "Mostrando página _PAGE_ de _PAGES_",
-            "infoEmpty": "Nenhum funcionário cadastrado no sistema.",
+            "infoEmpty": "Nenhum produto cadastrado no sistema.",
             "search": "Buscar:",
             "paginate": {
                 "first": "Primeiro",
